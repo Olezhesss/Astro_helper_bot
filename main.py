@@ -24,7 +24,7 @@ if not BOT_TOKEN:
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-# Подключаем роутеры
+# Подключение роутеров
 dp.include_router(user_router)
 
 # Запуск

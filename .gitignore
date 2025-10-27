@@ -1,2 +1,13 @@
+__pycache__/
+*.pyc
 .env
+*.tif
+VNL_npp_2024_global_vcmslcfg_v2_c202502261200.average.dat.tif
+/.vscode/
+/.idea/
+.DS_Store
+env/
+venv/
+\.venv/
+storage/__pycache__/.env
 users.json
