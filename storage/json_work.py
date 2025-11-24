@@ -54,3 +54,7 @@ def find_by_field(field: str, value: Any, path: str = DEFAULT_PATH) -> List[Tupl
         if isinstance(u, dict) and u.get(field) == value:
             res.append((uid, u))
     return res
+
+# Загрузка интересных фактов
+with open("int_facts.json", "r", encoding="utf-8") as f:
+    space_facts = json.load(f)

@@ -1,0 +1,7 @@
+aiogram
+python-dotenv
+requests
+beautifulsoup4
+rasterio
+deep-translator
+python-docx
